@@ -1,76 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Booleaner</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Booleaner</title>
+
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-    <!-- Intestazione -->
 <body>
-    <header>
-        <img src="./img/logo.svg" alt="ligo Booleaner">
-    </header>
-    <!-- Contenuto principale -->
-    <main>
-        <article>
-        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <adress>
-            Scritto da <a href="#">The Booleaner</a>
-            <br>
-        </adress>
-        <time datetime="10/10/2020"><small>10/10/2020</small>/</time>
-        <figure>
-            <img src="./img/tim-1.jpg" alt="Tim firs pic">
-            <img src="./img/tim-2.jpg" alt="Tim second pic">
+  <!-- Intestazione -->
+  <header>
+    <div class="container">
+      <img src="./img/logo.svg" alt="logo Booleaner" class="logo">
+    </div>     
+  </header>
 
-            <figcaption>
-                Ist rhoto: John o. and James L. nnignt roundation. Dv scott Henrichsen 
-                2nd Photo: Wikimedia. by Paul Clarke
-            </figcaption>
-        </figure>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud 
-            <mark>exerci tation ullamcorper suscipit lobortis nisI ut aliquip ex ea commodo consequat.</mark> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-        </p>
-        <ul>
-            <li>• Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</li>
-            <li>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</li>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam era volutpat.</li>
-        </ul>
-        <table>
-            <thead>
-                <tr>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
+  <!-- Contenuto principale -->
+  <main class="container">
+    <article>
+      <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet exercitationem inventore nam cumque?</h1>
 
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem corrupti repellat dolore eos dolorum.</th>
+      <!-- autore -->
+      <address class="grey">
+        Scritto da <a href="#">The Booleaner</a><br />
 
-                </tr><tr>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem corrupti repellat dolore eos dolorum.</th>
+        <!-- data -->
+        <time class="text-small" datetime="2020-10-10">Il 10/10/2020</time>
+      </address>
 
-                </tr><tr>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem corrupti repellat dolore eos dolorum.</th>
+      <!-- immagini -->
+      <figure>
+        <img src="./img/tim-1.jpg" alt="Tim first pic" title="Tim first pic">
+        <img src="./img/tim-2.jpg" alt="Tim second pic" title="Tim second pic">
 
-                </tr>
-            </tbody>
-        </table>
+        <!-- didascalia -->
+        <figcaption class="text-small">
+          img 1: Lorem ipsum dolor sit amet.<br />
+          img 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem?
+        </figcaption>
+      </figure>
 
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minima beatae ipsum at, recusandae unde eligendi, <mark>
+          facilis harum vel voluptatibus veniam nihil accusantium nemo magni adipisci odio ratione iure tempora.
+        </mark>
+        Possimus quis doloremque cumque exercitationem sit, id suscipit, incidunt ducimus officiis, enim explicabo commodi voluptates sint unde ex totam quas obcaecati corporis. Dolor modi fuga accusantium tempore dolorem consectetur reiciendis.
+      </p>
 
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      </ul>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem, ipsum dolor.</th>
+            <th class="rowcollum">Lorem, ipsum dolor.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="lightblue">
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nisi blanditiis dolore qui et quia, animi laboriosam culpa aliquam, quod, consectetur necessitatibus? Fuga vero, unde nam nostrum distinctio molestiae laborum?</td>
+          </tr>
+
+          <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nisi blanditiis dolore qui et quia, animi laboriosam culpa aliquam, quod, consectetur necessitatibus? Fuga vero, unde nam nostrum distinctio molestiae laborum?</td>
+          </tr>
+
+          <tr class="lightblue">
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nisi blanditiis dolore qui et quia, animi laboriosam culpa aliquam, quod, consectetur necessitatibus? Fuga vero, unde nam nostrum distinctio molestiae laborum?</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minima beatae ipsum at, recusandae unde eligendi, <mark>
+          facilis harum vel voluptatibus veniam nihil accusantium nemo magni adipisci odio ratione iure tempora.
+        </mark>
+        Possimus quis doloremque cumque exercitationem sit, id suscipit, incidunt ducimus officiis, enim explicabo commodi voluptates sint unde ex totam quas obcaecati corporis. Dolor modi fuga accusantium tempore dolorem consectetur reiciendis.
+      </p>
     </article>
-    </main>
 
-    
+    <aside>
+      <h2 class="grey">Potrebbe interessarti</h2>
+
+      <div class="related-article" id="graph-article">
+        <h3>Lorem, ipsum dolor.</h3>
+      </div>
+
+      <div class="related-article" id="monitor-article">
+        <h3>Lorem, ipsum dolor.</h3>
+      </div>
+    </aside>
+
+
+  </main>
 </body>
-</html>
